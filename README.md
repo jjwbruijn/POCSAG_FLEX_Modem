@@ -69,6 +69,10 @@ Note: Not all frequencies need to be added; if you entered the channel spacing c
 ## Disclaimer
 - I absolutely deny any and all responsibility should you chose to use, sell, lend or loan, or even just look at this software or hardware design. It's not fit for public consumption, and probably not suitable to be used by anyone. You're on your own!
 
+## Errata
+- The original version has GPIO2 connected to one of the GPIO's on the RF module. For some reason, this causes an issue where the RF module does something weird during boot. Not sure. Just don't connect the ESP32 GPIO2 pin to the main board and you're good.
+- The RF4463 needs to be calibrated for proper use. Calibrated value is set in RF4463.cpp at or around line #288. Should be around that value, calibrating it will improve your range by better matching your pager. Haven't found a better way to do it than just transmitting and checking the resulting frequency using an SDR RX
+
 ## TODO
 - Code cleanup
 - Web interface
