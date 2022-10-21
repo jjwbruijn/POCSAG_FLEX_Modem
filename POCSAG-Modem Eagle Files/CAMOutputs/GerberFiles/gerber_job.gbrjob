@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2020-10-23T10:40:54Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.6.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.67,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "main-single-esp32"
+        },
+        "Owner": "Jelmer Bruijn <mail@jelmerbruijn.nl>",
+        "Size": {
+            "X": 54,
+            "Y": 80
+        }
+    }
+}
