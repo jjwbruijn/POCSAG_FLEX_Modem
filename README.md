@@ -47,7 +47,7 @@ The modem is capable of syncing-up to existing FLEX pager networks, and send on 
 - Connect to wifi (The board will run as an AP, connect and enter your wifi details
 - Point your browser to the IP shown on the display, enter frequencies (in Hz) and data, and send away!
 
-For RX purposes there's somewhat of a web-interface, at <ip>/index.html, but you'll need to fill in the IP address of the device in main.js. [this is what it looks like](![image](https://user-images.githubusercontent.com/2544995/197303511-72ad286d-d64b-4eff-b078-07b176b526e7.png)
+For RX purposes there's somewhat of a web-interface, at <ip>/index.html, but you'll need to fill in the IP address of the device in main.js. [this is what it looks like](https://user-images.githubusercontent.com/2544995/197303511-72ad286d-d64b-4eff-b078-07b176b526e7.png)
 )
 
 ## Adding Frequencies
